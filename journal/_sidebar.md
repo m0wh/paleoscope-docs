@@ -1,0 +1,4 @@
+- [Journaux de bord](journal/)
+  - [Atelier à l'ENSCI](journal/atelier-ensci)
+  - [Stage au DesignSpot](journal/stage-designspot)
+  - [Fondation MSH](journal/fondation-msh)
