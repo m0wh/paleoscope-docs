@@ -21,6 +21,10 @@
       subMaxLevel: 2,
       repo: ''
     }
+
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
