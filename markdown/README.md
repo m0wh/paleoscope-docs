@@ -18,11 +18,11 @@ Cette documentation fonctionne avec [Docsify](https://docsify.js.org). Le conten
 
 #### **Resultat**
 
-# Heading 1
+# Heading 1 
 
-## Heading 2
+## Heading 2 
 
-### Heading 3
+### Heading 3 
 
 <!-- tabs:end -->
 
@@ -176,12 +176,12 @@ console.log('code block')
 #### **Markdown**
 
 ```markdown
-[title](https://www.example.com)
+[Texte à afficher](https://www.example.com)
 ```
 
 #### **Resultat**
 
-[title](https://www.example.com)
+[Texte à afficher](https://www.example.com)
 
 <!-- tabs:end -->
 
@@ -192,14 +192,16 @@ console.log('code block')
 #### **Markdown**
 
 ```markdown
-![alt text](image.jpg)
+![alt text](_media/IMG_1444.PNG)
 ```
 
 #### **Resultat**
 
-![alt text](_media/image.jpg)
+![alt text](_media/IMG_1444.PNG)
 
 <!-- tabs:end -->
+
+Il faut importer l'image dans GitHub. Pour bien s'organiser, le mieux est de mettre les images (ou autres documents) dans un dossier `_media`.
 
 ## Plugins
 
@@ -278,20 +280,4 @@ seqdiag {
 
 <!-- tabs:end -->
 
-### GLTF (docsify-gltfexplorer)
-
-<!-- tabs:start -->
-
-#### **Markdown**
-
-````
-```gltf
-```
-````
-
-#### **Resultat**
-
-```gltf
-```
-
-<!-- tabs:end -->
+Plus d'infos sur [kroki.io](https://kroki.io).
