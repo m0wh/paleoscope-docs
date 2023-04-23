@@ -1,6 +1,6 @@
 - [Le Paléoscope](/)
   - [Données réelles](donnees-reelles)
-  - [Infrastructure technique](infrastructure)
   - [Communication](communication)
-- [Resources](resources)
+  - [Infrastructure technique](infrastructure)
+<!-- - [Resources](resources) -->
 - [À propos](a-propos)
