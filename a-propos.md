@@ -26,7 +26,6 @@ Ce site web a pour objectif de garder une trace des avancées du projet et de se
 - Veronica Rodriguez (ENSCI), coordinatrice atelier de projet
 - Clémence Iacconi (Université Paris Saclay)
 
-
 - ENSCI–Les Ateliers
 - Université Paris Saclay
 - DesignSpot

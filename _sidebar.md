@@ -1,6 +1,9 @@
 - [Le Paléoscope](/)
-  - [Données réelles](donnees-reelles)
-  - [Communication](communication)
-  - [Infrastructure technique](infrastructure)
-<!-- - [Resources](resources) -->
+  - [Le projet](/)
+  - [Historique](historique)
+  - [Documentation](docs/)
+    - [Utilisation](docs/utilisation)
+    - [Fonctionnement](docs/fonctionnement)
+  - [Ressources](ressources/)
 - [À propos](a-propos)
+- [Archives](archives/)
