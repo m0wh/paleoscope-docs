@@ -1,7 +1,7 @@
 - [Le Paléoscope](/)
   - [Le projet](/)
   - [Historique](historique)
-  - [Documentation](docs/)
+  - [Documentation](docs/utilisation)
     - [Utilisation](docs/utilisation)
     - [Fonctionnement](docs/fonctionnement)
   - [Ressources](ressources/)
