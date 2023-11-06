@@ -1,6 +1,6 @@
 # Historique
 
-Comment transformer un échantillon microscopique en site archéologique ? C’est la question à laquelle nous nous sommes efforcé de répondre lors du développement du Paléoscope.
+Comment transformer un échantillon microscopique en site archéologique ? C’est la question à laquelle nous nous sommes efforcés de répondre lors du développement du Paléoscope.
 
 Le projet paléoscope s’est déroulé en 3 étapes distinctes, qui ont chacune été menées dans un cadre différent avec des objectifs spécifiques.
 Tout à débuté en septembre 2021 lors d’un atelier de projet dans l'école de design ENSCI–Les Ateliers, à Paris. Un atelier de projet c’est un cours encadré par deux designers qui s’étend sur toute la durée d’un semestre et le plus souvent en partenariat avec un acteur extérieur à l’école (entreprise, partenaire public, chercheurs etc…). A cette occasion nous avons rencontré Loïc Bertrand, Clémence Iaconni et Vincent Créance. Ils nous ont présenté l'enjeu des sciences du patrimoine et l'intérêt de les mettre en lumière auprès du grand public, en envisageant le design comme un outil de médiation.  
