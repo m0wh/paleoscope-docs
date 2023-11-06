@@ -1,1 +1,41 @@
 # Historique
+
+Comment transformer un échantillon microscopique en site archéologique ? C’est la question à laquelle nous nous sommes efforcé de répondre lors du développement du Paléoscope.
+
+Le projet paléoscope s’est déroulé en 3 étapes distinctes, qui ont chacune été menées dans un cadre différent avec des objectifs spécifiques.
+Tout à débuté en septembre 2021 lors d’un atelier de projet dans l'école de design ENSCI–Les Ateliers, à Paris. Un atelier de projet c’est un cours encadré par deux designers qui s’étend sur toute la durée d’un semestre et le plus souvent en partenariat avec un acteur extérieur à l’école (entreprise, partenaire public, chercheurs etc…). A cette occasion nous avons rencontré Loïc Bertrand, Clémence Iaconni et Vincent Créance. Ils nous ont présenté l'enjeu des sciences du patrimoine et l'intérêt de les mettre en lumière auprès du grand public, en envisageant le design comme un outil de médiation.  
+Nous avons démarré ce projet avec la volonté de comprendre les chercheurs, leur méthodologie de travail, leur outils et leurs objets d’études.
+
+Rapidement deux pistes se sont dégagées : une fascination pour la beauté des échantillons qui observés aux microscopes sont de véritables paysages qui se dessinent, et la volonté de donner au grand public la possibilité de mener leur propre recherche.  
+A partir de ces deux pistes nous avons mené un travail de documentation, d'entretiens et d’expérimentations.  
+Nous nous sommes documentés sur les différents types de microscopies et les images qu’elles produisent, nous avons découvert la tomographie et tenté d'appréhender les intéractions complexes entre lumière et matière. Afin de mieux comprendre le quotidien d’un chercheur et les instruments qu’il manipule, nous avons visité le Synchrotron Soleil, l’accélérateur de particules de l’université Paris-Saclay. Lors de cette visite Loïc Bertrand nous à fait découvrir l’univers de la microscopie à rayon X, le vocabulaire spécifique, les différentes lignes avec leurs acronymes malicieux, et nous sommes resté bouche bée face à l’ampleur technique de ce lieu.
+
+Cette visite nous à fait réaliser que le travail des chercheurs reposait en grande partie sur de l’analyse de graphiques, de la prise de note et plus généralement d'un travail en deux dimensions, alors que leur sujet d’étude est lui purement physique.  
+Nous nous sommes alors questionnés sur les façons de ramener l’échantillon et sa physicalité dans le travail de recherche, en se fixant comme objectif de transformer l’échantillon microscopique en site archéologique et pour cela créer un instrument capable de projeter le public au cœur de la matière.
+
+Au moyen de scénarios d’usage, écrits et dessinés, nous avons progressivement esquissé notre projet : créer un instrument collaboratif et immersif d’exploration de la matière. Il prend la forme d’un terminal physique, sorte de gros synthétiseur, permettant au copilote de contrôler l’exploration en temps réel d’un échantillon de matière fictif par son collègue, le Paléoscope.
+
+Pour créer une expérience immersive en VR nous avons eu recours à Unreal Engine 5, un moteur de jeux vidéo largement utilisé dans l’industrie, nous avons utilisé blender pour la modélisation d’objets 3D. Pour créer une interface physique capable de piloter cette expérience, nous avons prototypé en carton puis en métal, grâce à la programmation sur Arduino nous avons développé une interface physique capable de communiquer en signaux MIDI avec Unreal.
+
+Nous avons présenté ce prototype lors du rendu final du projet et attiré l’attention des partenaires. Loïc Bertrand à vu dans ce projet une opportunité d'apporter du neuf dans le monde de la recherche académique et offrir de nouveaux angles de vue aux scientifiques.  
+Lors des portes ouvertes de l’ENSCI—Les Ateliers, nous avons confronté notre prototype à un public assez large et nous avons pu constater l’enthousiasme qu'il suscitait. 
+
+S’en est suivi la seconde phase du projet.  
+Nous avons été en stage auprès du DesignSpot, le centre de design de l'Université Paris-Saclay pour développer le Paléoscope. L’objectif de ce stage était de réexplorer le projet en envisageant un développement destiné à l’enseignement et la recherche, un outil collaboratif et immersif. A cette occasion nous avons visité le DigiScope, espace de travail doté de murs d’écrans haute résolution, et nous avons fait la rencontre de chercheurs intéressés par les questions de réalité virtuelle.  
+Nous avons revu les bases du projet en abandonnant l’interface physique (que nous aimions pourtant beaucoup) et développé l’idée d’une expérience VR monitorée depuis un site web, avec comme objectif une expérience complémentaire en expérience VR et site web. Le stage s’est conclu sur le développement d’une preuve de concept web et VR. [En savoir plus](./archives/designspot/)
+
+Les nouvelles bases développées lors du stage nous ont mené à la dernière phase du projet vouée à développer un prototype fonctionnel complet qui pourrait fonctionner à partir de données réelles et donc servir dans des cas concrets de recherche ou de cours.  
+Cette phase de développement du projet à été financée par la Fondation Maison des Sciences de l’Homme et s’est déroulée en 3 étapes : recherche et scénarios, développement du prototype puis communication.
+
+Nous avons commencé par rencontrer Clémence Iacconi qui nous à partager les fichiers tomographiques de sa thèse. Elle nous à expliqué sa méthode de traitement des données et nous à indiqué un certain nombre de logiciels adaptés. Nous avons ensuite exploré de notre côté ces logiciels jusqu’à parvenir à établir une suite d’opérations à effectuer pour arriver à un échantillon utilisable dans Unreal Engine. Nous avons également établi la nouvelle architecture du projet basée sur les échanges entre un serveur web et différents clients. A partir des documents de recherche de la thèse de Clémence nous avons élaboré plusieurs scénarios d’utilisation du paléoscope : pour la recherche collaborative, l’enseignement scientifique, la communication entre pairs et la médiation auprès du grand public. La nouvelle architecture du projet étant vouée à être très flexible et capable de s’adapter à ces différents usages.  
+A l’issue de cette phase nous avons produit un [document consignant nos recherches](./archives/fondation-msh/phase-1.md), sous forme de petits tutoriels, nos scénarios à travers une suite d’illustration et enfin nous avons préparé une feuille de route à suivre lors de l’étape suivante.
+
+Le développement du prototype fonctionnel s’est déroulé pendant 2 semaines. Grâce à la documentation écrite lors de la première étape nous avons pu nous mettre très rapidement au travail avec des objectifs précis. Nous avons commencé cette étape par une réunion avec Loïc Bertrand et Clémence Iaconni afin de discuter des échantillons à utiliser.  
+Nous avons décidé de structurer le Paléoscope sous forme de projet, chaque projet contenant un ensemble de scènes. Un projet correspondant à un projet de recherche et chaque scène à un angle de vue particulier de l’échantillon étudié.  
+Pour l’utilisateur VR chaque scène correspond à un nouvel environnement virtuel, des nouveaux objets, sons etc…  
+Pour l’utilisateur web chaque scène correspond à la visualisation d’un nouveau modèle 3D et un ensemble d’informations qui lui sont propres, échelle, balise, médias etc…  
+On peut suivre en temps réel l’exploration de l’échantillon 3D grâce à une carte qui affiche le positionnement de l’opérateur 3D et on peut partager avec lui des points d’intérêts en plaçant des balises. Grâce à l’architecture serveur client il devient possible de se connecter à plusieurs sur le site et dans la VR, et explorer simultanément, ou non, les différentes scènes.  
+A l’issue de cette phase de travail nous avons également produit une [documentation](./archives/fondation-msh/phase-2.md) afin de reprendre plus facilement la main sur le projet en cas de développement futur.
+
+La dernière étape du projet, la communication.  
+Nous avons remis en ordre nos dossiers et les différents échantillons. Nous avons produit des images et des rendus du projet. Nous avons rédigé les textes de ce site synthétisant le projet, rassemblé des images et produit un trailer ainsi qu’une vidéo explicative du projet.
