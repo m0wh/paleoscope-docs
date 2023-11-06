@@ -4,6 +4,6 @@
   - [Documentation](docs/utilisation)
     - [Utilisation](docs/utilisation)
     - [Fonctionnement](docs/fonctionnement)
-  - [Ressources](ressources/)
+  - [Ressources](ressources)
 - [À propos](a-propos)
 - [Archives](archives/)
